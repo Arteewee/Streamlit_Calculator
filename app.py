@@ -1,5 +1,7 @@
 import streamlit as st
 
+CURRENT_THEME = "light"
+
 choice = st.sidebar.radio("Go To",("Sphere","About"))
 if choice == "Sphere":
 
